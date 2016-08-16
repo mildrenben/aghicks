@@ -1,0 +1,499 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	max-width: 1000px;
+	background:#F5F3ED;
+	margin: auto;
+}
+		
+.redtext {
+	color: #b83535;
+}
+		
+a {
+	color: #333;
+}
+		
+a:hover {
+	color: #b83535;
+	text-decoration: none;
+}
+		
+.align_right {
+	text-align: right;
+}
+
+span {
+	font-weight: 300;
+}	
+		
+.centered {
+	float: none !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	text-align: center !important;
+}
+		
+.text_justify {
+	text-align: justify;
+}
+
+iframe, object, embed{max-width: 100%;}
+/* Header */
+h4 {
+	font-size: 16px;
+}
+
+.logo {
+	min-width: 286px;
+}
+	
+.navbar {
+	padding-top: 10px;
+}
+
+				
+/* Homepage */
+.grid_text {
+	vertical-align: -5px;
+}
+
+/* Gallery */
+.carousel-inner { 
+	text-align: center;
+}
+
+.carousel .item > img {
+	display: inline-block;
+}
+
+@media (min-width: 980px){
+	body {
+		padding-top: 66px;
+	}
+	
+	.footer_wrapper {
+		padding-top: 80px;
+		clear: both;
+	}
+	/* Header */
+	.phone_numbers {
+		padding-top: 38px;
+	}
+			
+	.logo {
+		width: 386px;
+	}
+	
+	.phone_icon {
+		padding-top: 14px;
+		padding-left: 38%;
+	}
+
+	.navbar {
+		padding-top: 34px;
+		filter: none;
+		-webkit-box-shadow: none;
+	}	
+			
+	.navbar-inner {
+		background: none;
+		background-color: none;
+		border: none;
+		background-image: none;
+		border-radius: none;
+		filter: none;
+		-webkit-box-shadow: none;
+	}
+			
+	.navbar_link {
+		font-size: 19px;
+		letter-spacing: 0.3em;
+		padding-bottom: 30px;
+	}
+			
+	.navitem1 {
+		padding-left: 36px;
+	}
+			
+	.navitem2 {
+		padding-left: 39px;
+	}
+			
+	.navitem3 {
+		padding-left: 39px;
+	}
+			
+	.navitem4 {
+		padding-left: 39px;
+	}
+			
+	.navitem5 {
+		padding-left: 39px;
+	}
+			
+	.navitem6 {
+		padding-left: 39px;
+	}
+			
+	.navitem7 {
+		padding-left: 39px;
+	}
+			
+	.navbar .nav > li > a {
+		text-shadow: none;
+		color: #333;
+	}
+			
+	.navbar .nav > li > a:hover {
+		text-shadow: none;
+		color: #b83535;
+	}
+	
+	.footer_text_right {
+		text-align: right;
+	}
+	
+	/* Homepage */
+	.grid_item1 {
+		padding-left: 52px;
+	}
+			
+	.grid_item2 {
+		padding-left: 40px;
+	}
+			
+	.grid_item3 {
+		padding-left: 40px;
+	}
+			
+	.grid_item4 {
+		padding-left: 56px;
+	}
+			
+	.icon_container {
+		padding-top: 20px;
+	}
+			
+	.icon_container2 {
+		padding-bottom: 40px;
+	}
+			
+	.hompeage_text {
+		margin: 0px;
+	}
+	
+	#homepage_carousel {
+		padding-top: 12px;
+	}
+	
+	.grid_item {
+		display: inline;
+		padding-top: 10px;
+	}
+	
+	.homepage_breaks {
+		display: none;
+	}
+	
+	/* AboutUs */
+	.about_us_image {
+		padding-top: 12px;
+	}
+	
+	/* Contact */
+	iframe, object, embed {
+		width: 100%;
+	}
+	
+	.contact_info {
+		text-align: right;
+	}
+	
+	.maps_text {
+		padding-left: 220px;
+	}
+	
+	.main_areas {
+		padding-left: 62px;
+	}
+	
+	.list3 {
+		padding-left: 30px;
+	}
+	
+	.list4 {
+		padding-left: 70px;
+	}
+	
+	/* Gallery */
+	.gallery_icon_container {
+		padding-bottom: 130px;
+	}
+	
+}
+			
+@media (min-width: 768px) and (max-width: 979px) {
+	body {
+		padding-top: 10px;
+	}
+	
+	.footer_wrapper {
+		padding-top: 40px;
+		clear: both;
+	}
+	
+	.footer_text_right {
+		text-align: right;
+	}
+	
+	.grid_item {
+		display: inline;
+		padding-top: 10px;
+	}
+	/* Header */
+	.phone_numbers {
+		padding-top: 26px;
+	}
+			
+	.logo {
+		padding-top: 6px;
+	}
+	
+	/* Homepage */
+	.icon_container {
+		padding-left: 8%;
+	}
+	
+	.icon_container2 {
+		padding-left: 5.3%;
+	}
+	
+	.grid_item2 {
+		padding-left: 3%;
+	}
+	
+	.grid_item4 {
+		padding-left: 6.5%;
+	}
+	
+	.homepage_breaks {
+		display: none;
+	}
+	
+	/* Contact */
+	iframe, object, embed {
+		max-width: 100%;
+	}
+	
+	.contact_info {
+		text-align: right;
+	}
+	
+	.main_areas {
+		padding-left: 4%;
+	}
+	
+	.list3 {
+		padding-left: 4%;
+	}
+	
+	/* Gallery */
+	.gallery_icon_container {
+		padding-bottom: 20%;
+	}
+}
+		
+@media (min-width: 567px) and (max-width: 767px) {
+	body {
+		padding-top: 1em;
+	}
+	
+	.footer_wrapper {
+		clear: both;
+		padding-top: 3em;
+	}
+	
+	.footer_text_right {
+		text-align: left;
+	}
+	/* Header */
+	.logo {
+		width: 640px;
+	}
+			
+	.navbar {
+		padding-top: 0px;
+	}
+	
+	/* Homepage */
+	.icon_container {
+		padding-left: 18%;
+	}
+	
+	.icon_container2 {
+		padding-left: 18%;
+	}
+	
+	.grid_item2 {
+		padding-left: 3%;
+	}
+	
+	.grid_item4 {
+		padding-left: 6.5%;
+	}
+	
+	.list1 {
+		float: left;
+	}
+	
+	.list2 {
+		float: right;
+	}
+	
+	.list2container {
+		margin-top: -40px;
+		padding-right: 10%;
+	}
+	
+	.list1container {
+		padding-left: 10%;
+	}
+	
+	.ourservices {
+		padding-top: 20px;
+	}
+	
+	.homepage_breaks {
+		display: none;
+	}
+	
+	/* Contact */
+	iframe, object, embed {
+		max-width: 100%;
+	}
+	
+	.contact_info {
+		text-align: left;
+	}
+	
+	.main_areas {
+		padding-left: 26%;
+	}
+	
+	.list3 {
+		float: left;
+	}
+	
+	.list4 {
+		float: right;
+	}
+	
+	.list4container {
+		margin-top: -40px;
+		padding-right: 10%;
+	}
+	
+	.list3container {
+		padding-left: 10%;
+	}
+	
+	/* Gallery */
+	.grid_item {
+		display: inline !important;
+		padding-top: 2.5%;
+	}
+	
+	.gallery_icon_container {
+		padding-bottom: 10%;
+	}
+
+}
+
+@media (max-width: 567px) {
+	body {
+		padding-top: 1em;
+	}
+	
+	.footer_wrapper {
+		clear: both;
+		padding-top: 3em;
+	}
+	
+	.footer_text_right {
+		text-align: left;
+	}
+	/* Header */
+	.logo {
+		width: 640px;
+	}
+			
+	.navbar {
+		padding-top: 0px;
+	}
+	
+	/* Homepage */
+	.icon_container {
+		padding-left: 4%;
+	}
+	
+	.icon_container2 {
+		padding-left: 4%;
+	}
+	
+	.grid_text {
+		display: inline;
+	}
+
+	
+	.list2container {
+		margin-top: -0.6em;
+	}
+	
+	.ourservices {
+		padding-top: 20px;
+	}
+	
+	/* Contact */
+	iframe, object, embed {
+		max-width: 100%;
+	}
+	
+	.contact_info {
+		text-align: left;
+	}
+	
+	.main_areas {
+		text-align: center;
+	}
+	
+	.list4container {
+		margin-top: -0.6em;
+	}
+	
+	/* Gallery */
+	.grid_item {
+		padding-top: 2.5%;
+	}
+	
+	.gallery_icon_container {
+		padding-bottom: 10%;
+	}
+
+
+}
+	
+/* Footer */
+.footer {
+	background-color: #999999;
+}
+		
+.footer_text {
+	color: #FFF;
+	font-size: 10px;
+	padding-top: 8px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
